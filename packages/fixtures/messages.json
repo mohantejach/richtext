@@ -1,0 +1,8 @@
+{
+  "basic": "Hello **team**, check this code `const x = 1;` and ask <@u123|Jane Doe>!",
+  "italicAndLink": "See *docs* at [Help](https://example.com/help).",
+  "headingListCode": "# Status\n- ship **v1**\n- ask <@u9|Sam Lee>\n\n```ts\nconst ok = true;\n```",
+  "nestedEmphasis": "This is **bold with *italic* inside**.",
+  "escaped": "Show \\*stars\\* and a literal mention token.",
+  "multiline": "Line one\nLine two\n\nNew paragraph with <@u1|Ada Lovelace>."
+}

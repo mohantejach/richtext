@@ -1,0 +1,57 @@
+.rt-editor {
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 8px 10px;
+  background: #fff;
+}
+
+.rt-editor-content {
+  min-height: 88px;
+  outline: none;
+  font: 15px/1.5 system-ui, -apple-system, Segoe UI, sans-serif;
+}
+
+.rt-editor-content p {
+  margin: 0 0 0.5em;
+}
+
+.rt-editor-content p:last-child {
+  margin-bottom: 0;
+}
+
+.rt-suggestion {
+  position: fixed;
+  z-index: 40;
+  min-width: 220px;
+  max-height: 240px;
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+  padding: 4px;
+}
+
+.rt-suggestion-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font: 14px/1.4 system-ui, sans-serif;
+}
+
+.rt-suggestion-item.is-selected,
+.rt-suggestion-item:hover {
+  background: #eff6ff;
+}
+
+.rt-suggestion-detail {
+  opacity: 0.7;
+}

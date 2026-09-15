@@ -1,0 +1,45 @@
+# Node
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.turbo/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.swp
+
+# iOS / Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.swiftpm/
+.build/
+
+# Android / Gradle
+.gradle/
+local.properties
+*.apk
+*.aab
+*.aar
+captures/
+.cxx/
+
+# Test / reports
+test-results/
+playwright-report/
+
+# OS
+Thumbs.db
