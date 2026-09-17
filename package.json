@@ -1,5 +1,5 @@
 {
-  "name": "connect-chat-utils",
+  "name": "richtext",
   "private": true,
   "version": "1.0.0",
   "description": "Cross-platform Slack-like rich text engine for Web, iOS, and Android",

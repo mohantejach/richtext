@@ -1,4 +1,4 @@
-# connect-chat-utils
+# richtext
 
 Cross-platform Slack-like rich text for Web (React), iOS (SwiftUI), and Android (Jetpack Compose).
 
@@ -177,7 +177,7 @@ If a node type has no custom view, the renderer uses native `AttributedString` /
 ```kotlin
 include(":richtext-android")
 project(":richtext-android").projectDir =
-    File(settingsDir, "../connect-chat-utils/packages/android/richtext-android")
+    File(settingsDir, "../richtext/packages/android/richtext-android")
 ```
 
 ```kotlin

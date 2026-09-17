@@ -54,7 +54,7 @@ export default function App(): ReactNode {
     <div className="page">
       <header className="hero">
         <div>
-          <p className="eyebrow">connect-chat-utils</p>
+          <p className="eyebrow">richtext</p>
           <h1>Rich text playground</h1>
           <p className="lede">
             Edit Markdown + mention tokens, preview the renderer, and see the Twilio SMS
